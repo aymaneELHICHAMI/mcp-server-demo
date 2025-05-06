@@ -25,8 +25,7 @@ AI Sticky Notes leverages the Model Context Protocol to provide a seamless integ
 
 2. Install `uv`
 
-    - Linux: `curl -LsSf https://astral.sh/uv/install.sh | sh`
-    - Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+    - Documentation: https://docs.astral.sh/uv/getting-started/installation/
 
 3. Create a virtual environment
 
@@ -41,7 +40,8 @@ AI Sticky Notes leverages the Model Context Protocol to provide a seamless integ
     - `uv sync`
 
 6. Run the MCP server
-    - `uv run mcp install .\main.py`
+    - `uv run mcp install main.py`
+    If the configuration is not reflected in Claude Desktop (Menu Bar -> Settings -> Developer), Try to force shutdown Claude Desktop from task Manager et reopen it. When working, you should see "AI Sticky Notes MCP Server" running.
 
 # Core Components
 
