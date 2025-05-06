@@ -14,3 +14,6 @@ env/
 
 # Local config
 *.env
+
+# Output file
+notes.txt
